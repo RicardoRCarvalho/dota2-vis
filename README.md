@@ -8,11 +8,11 @@ The project introduces **Dota2-Vis**, a video-based dataset and baseline pipelin
 
 The dataset and baseline are designed to support research on MOBA analytics, esports performance analysis, minimap understanding, and visibility-centered game analytics.
 
-# Code
+## Code
 
 The source code will be made available soon.
 
-# Dataset
+## Data
 
 Dota2-Vis contains two complementary components:
 
@@ -21,7 +21,7 @@ Dota2-Vis contains two complementary components:
 
 The dataset was built to support the extraction of opponent-visible player presence over time. This enables analyses at different levels, including players, heroes, roles, teams, match stages, and match outcomes.
 
-## Match Videos
+### Match Videos
 
 The video component contains all 144 matches from **The International 2025**, recorded twice: once from the Radiant perspective and once from the Dire perspective.
 
@@ -34,7 +34,7 @@ In total, the dataset includes:
 
 These videos are used to estimate when each player is visible from the opposing team’s perspective.
 
-## Minimap Annotations
+### Minimap Annotations
 
 The annotation component contains **2,477 manually annotated minimap images** collected from professional matches that were not part of The International 2025, reducing overlap between training data and the matches analyzed in the paper.
 
@@ -52,7 +52,7 @@ The predefined split is:
 * 407 validation images;
 * 400 test images.
 
-# Baseline
+## Baseline
 
 We provide baseline experiments using YOLO11 variants for player-icon detection on Dota 2 minimaps.
 
@@ -73,11 +73,11 @@ Among the evaluated variants, **YOLO11l** achieved the best overall trade-off, w
 
 The trained detector is then used to estimate opponent-visible map presence over time.
 
-# How to Obtain the Dataset
+## How to Obtain the Dataset
 
 Dataset access instructions will be made available soon.
 
-# Citation
+## Citation
 
 If you use our code or dataset in your research, please cite our paper:
 
