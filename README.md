@@ -4,7 +4,7 @@ This repository contains the dataset information and baseline experiments associ
 
 * *Computer Vision for MOBA Analytics: A Dataset and Baseline for Visibility Analysis in Dota 2* [[arXiv]](https://arxiv.org/abs/2606.26970)
 
-The project introduces **Dota2-Vis**, a video-based dataset and baseline pipeline for visibility analysis in professional Dota 2 matches. Instead of relying only on structured match data, such as drafts, logs, replays, or public APIs, this work investigates how computer vision can be used to estimate what each team could actually see during a match.
+The project introduces **Dota2-Vis**, a video-based dataset and baseline pipeline for visibility analysis in professional Dota 2 matches. Instead of relying solely on structured match data, such as drafts, logs, replays, or public APIs, this work investigates how computer vision can be used to estimate what each team could see during a match, currently by detecting player icons on the minimap.
 
 The dataset and baseline are designed to support research on MOBA analytics, esports performance analysis, minimap understanding, and visibility-centered game analytics.
 
@@ -86,7 +86,7 @@ If you use our code or dataset in your research, please cite our paper:
 ```bibtex
 @inproceedings{carvalho2026computer,
   title = {Computer Vision for {MOBA} Analytics: A Dataset and Baseline for Visibility Analysis in {Dota}~2},
-  author = {R. {Carvalho} and E. {Oliveira} and L. B. M. {Kummer} and E. C. {Paraiso} and R. {Laroca}},
+  author = {R. R. {Carvalho} and E. {Oliveira} and L. B. M. {Kummer} and E. C. {Paraiso} and R. {Laroca}},
   year = {2026},
   month = {Sept},
   booktitle = {Simpósio Brasileiro de Jogos e Entretenimento Digital (SBGames)},
