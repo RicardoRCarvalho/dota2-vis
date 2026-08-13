@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 21
+names: ['Other', 'p1', 'p1Clone', 'p2', 'p2Clone', 'p3', 'p3Clone', 'p4', 'p4Clone', 'p5', 'p5Clone', 'x1', 'x1Clone', 'x2', 'x2Clone', 'x3', 'x3Clone', 'x4', 'x4Clone', 'x5', 'x5Clone']
+
+roboflow:
+  workspace: mestrado-hd5ye
+  project: dota-2-minimap-cdpvp
+  version: 12
+  license: BY-NC-SA 4.0
+  url: https://universe.roboflow.com/mestrado-hd5ye/dota-2-minimap-cdpvp/dataset/12
